@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Libre+Barcode+128+Text|Bungee');
+h1 {
+  font-family: 'Libre Barcode 128 Text';
+  color:#FFF;
+  font-size: 8vh;
+  text-align: center;
+}
+h2{
+  font-size: 3vh;
+  color:#FFF;
+  font-family: 'Cutive Mono';
+}
+h3{
+  color:#FFF;
+  font-family: 'Cutive Mono';
+  font-size: 25px;
+  margin: 0;
+}
+.app{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left:0;
+  top:0;
+  background: linear-gradient(135deg, #151515 0%,#111111 25%);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-container{
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.loginField{
+  font-family: 'Cutive Mono';
+  text-align: center;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #FFF;
+  outline: none;
+  font-size: 5vh;
+  color:#FFF;
+}
+.talkbox{
+  position: absolute;
+  left:2vh;
+  bottom:2vh;
+  font-size: 2vh;
+  color:#FFF;
+  font-family: 'Courier New', Courier, monospace;
+}
+.mainBigButton{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: transparent;
+  border:none;
+  outline: none;
+  padding:10px 20px;
+  font-size: 2vh;
+  background-color: #212121;
+  border: 1px solid #FFF;
+  cursor: pointer;
+  margin-top: 20px;
+  color:#FFF;
+  opacity: 1;
+  
+  padding-bottom: 9px;
+}
+.mainBigButton:hover{
+  color:#212121;
+  background-color: #FFF;
+}
+
+.playground{
+  cursor: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height:450px;
+  width: 800px;
+}
+.inviteLink{
+  cursor: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #111111 
+}
+.inviteInput{
+  cursor: none;
+  color:#FFF;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  min-width: 250px;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.field{
+  height: 225px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.field1::before{
+  content: '';
+  position: absolute;
+  height: 225px;
+  left: 400px;
+  width: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field1::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  top: 225px;
+  width: 400px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field2::before{
+  content: '';
+  position: absolute;
+  height: 225px;
+  right: 400px;
+  width: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field2::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  top: 225px;
+  width: 400px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field3::before{
+  content: '';
+  position: absolute;
+  height: 225px;
+  right: 400px;
+  width: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field3::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 225px;
+  width: 400px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field4::before{
+  content: '';
+  position: absolute;
+  height: 225px;
+  left: 400px;
+  width: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+.field4::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 225px;
+  width: 400px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+
+.cursor{
+  cursor: none;
+  height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+.playericon{
+  height: 100px;
+}
+
+.playerName{
+  color: #FFFF;
+  font-size: 18px;
+  font-family: 'Cutive Mono';
+  margin-top: 10px;
+}
